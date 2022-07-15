@@ -154,7 +154,7 @@ shell
 
 - add commit push 순서를 통해 서버에 저장을 한다
 - git clone 링크 해서 자료 받기
-- git push origin master 
+- git push origin master (master 대신 main을 써야할 수 도 있음)
     깃헙 서버에 저장하는 방법
 
 ### git 기본 이용 방법
@@ -163,11 +163,14 @@ shell
   - 비어있는 git을 생성한다.
 - git add .
   - 변경사항을 전부 올린다.
+- git remote add origin 깃헙링크
+  -깃헙링크와 연동
 - git add "file name"
   - file을 올린다.
 - git commit -m "message"
   - message의 이름으로 커밋을한다.
 - git push
+  - 한번 업로드 후 메인이나 마스터 없이 가능
 
 # Markdown
 
@@ -276,7 +279,7 @@ for i in range(1, 7):
 
 - [ssafy](https://edu.ssafy.com/edu/main/index.do)
 
-- 
+
 
   <img src="20220715.assets/tree-g0e64a3af4_1280.jpg" alt="이미지" style="zoom:33%;" />
 
